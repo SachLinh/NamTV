@@ -1,0 +1,55 @@
+.app-Header {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgb(0 0 0 / 5%) 0px 3px 5px;
+  &_child {
+    width: 980px;
+    height: 60px;
+    padding: 8px 0;
+  }
+  &_logo {
+    width: 150px;
+    cursor: pointer;
+  }
+  &_menu {
+    width: calc(100% - 150px);
+    &_item {
+      width: auto;
+      margin-left: 20px;
+      color: #000000;
+      font-weight: 500;
+      font-size: 14px;
+      i {
+        margin-right: 5px;
+      }
+      cursor: pointer;
+    }
+    &_item:hover {
+      color: #40a9ff;
+    }
+    &_hotline {
+      padding: 8px 15px;
+      border: 1px rgb(192, 192, 192) solid;
+      font-weight: 400;
+      border-radius: 5px;
+    }
+    &_hotline:hover {
+      color: #000000;
+      background: rgb(243, 243, 243);
+    }
+    &_phone {
+      padding: 5px 8px;
+      border-radius: 5px;
+      background: rgb(0, 96, 196);
+      color: #fff;
+      font-weight: 400;
+    }
+    &_phone:hover {
+      background: #40a9ff;
+      color: #fff;
+    }
+  }
+}

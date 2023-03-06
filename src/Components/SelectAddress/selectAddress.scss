@@ -1,0 +1,27 @@
+.tabs button {
+  font-size: 16px;
+  font-weight: 600;
+}
+.tab_item {
+  font-size: 18px;
+  font-weight: 600;
+}
+.select_address_date {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 16px !important;
+}
+.select_address_start {
+  width: calc(250px);
+}
+.select_address_end {
+  width: calc(250px);
+  margin: 0 20px !important;
+}
+.select_date {
+  max-width: calc(250px) !important;
+}
+label {
+  color: #858585;
+}

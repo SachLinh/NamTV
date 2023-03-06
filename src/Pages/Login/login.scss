@@ -1,0 +1,32 @@
+.dialog-login-content {
+  width: 520px;
+}
+.text-header-dialog {
+  font-weight: 700 !important;
+}
+.text-field {
+  color: #252525;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 400;
+  width: 100%;
+  min-height: 50px;
+  padding: 4px 8px;
+  outline: none;
+  border: 1px solid #716d6d;
+  border-radius: 8px;
+}
+.text-title {
+  color: #252525;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 400;
+}
+.text-footer-dialog span {
+  font-size: 14px;
+  color: #9c9c9c;
+}
+.register {
+  color: rgb(35, 118, 213) !important;
+  cursor: pointer;
+}
